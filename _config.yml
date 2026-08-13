@@ -17,9 +17,6 @@ contact:
   linkedin_url: https://www.linkedin.com/in/rokonuddin
   github_handle: rokon-uddin
   github_url: https://github.com/rokon-uddin
-  # Platform unlabeled on the source resume — shown as plain text, not linked,
-  # to avoid guessing the wrong destination.
-  other_handle: shoaib-rokon
 
 nav_items:
   - name: About
