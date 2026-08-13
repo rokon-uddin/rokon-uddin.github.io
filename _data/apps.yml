@@ -1,24 +1,28 @@
 - name: PixPerfect – Inpaint with AI
   description: >-
-    On-device AI object-removal photo editor built with Core ML and Vision:
-    freehand brush, precision loupe, lasso, AI object detection and
-    segmentation, background reconstruction, privacy-first (no uploads or
-    account), undo/redo, mosaic, full-resolution export, and
-    subscription/lifetime Pro.
+    I built and shipped an on-device AI photo editor for object removal,
+    powered by Core ML and Vision. It has a freehand brush, a precision
+    loupe, lasso selection, AI object detection and segmentation, and
+    background reconstruction — plus undo/redo, mosaic, and full-resolution
+    export. Everything runs on-device: no uploads, no account required.
   url: https://apps.apple.com/us/app/pixperfect-inpaint-with-ai/id6775405253
 
 - name: CleanShot – AI Photo Cleaner
   description: >-
-    On-device photo cleanup that detects duplicates, similar images,
-    screenshots, notes, and blurry/low-quality photos: bulk cleanup,
-    full-screen review, quality scoring, scan progress and cancellation,
-    haptics, localization, and App Store monetization.
+    I independently designed, built, and shipped an on-device photo-cleanup
+    app that detects duplicates, similar images, screenshots, notes, and
+    blurry or low-quality photos, with bulk cleanup and full-screen review.
+    I cared a lot about the on-device, privacy-first analysis, along with
+    quality scoring, scan progress and cancellation, haptics, and
+    localization.
   url: https://apps.apple.com/us/app/cleanshot-ai-photo-cleaner/id6775141807
 
 - name: "QuranWords: Flashcard"
   description: >-
-    Multilingual vocabulary app with frequency-ranked Quranic vocabulary,
-    spaced repetition, word-level audio, verse context, root-word study,
-    six quiz modes, daily goals, streaks, XP, achievements, reminders,
-    8 app languages, and multiple Arabic script styles.
+    I built and launched a multilingual vocabulary-learning app around
+    frequency-ranked Quranic vocabulary, spaced repetition, word-level
+    audio, real verse context, and root-word study, with six quiz modes.
+    I designed the engagement loop around daily goals, streaks, XP,
+    achievements, and reminders — it supports eight app languages and
+    multiple Arabic script styles.
   url: https://apps.apple.com/us/app/quranwords-flashcard/id6794572370

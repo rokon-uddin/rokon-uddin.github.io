@@ -1,17 +1,18 @@
 - name: MyGP (Grameenphone) iOS App
   dates: October 2024 – Present
   bullets:
-    - 20M+ monthly active users.
-    - ~35–45% reduction in API latency.
-    - ~4× faster app launch and screen load times.
-    - ~15–20% higher payment success rate across bKash, Nagad, and card.
-    - Crash-free sessions improved from ~96% to 99%+.
-    - ~30% fewer redundant API calls.
+    - I work on a large-scale iOS app serving 20M+ monthly active users, where performance under real traffic isn't optional.
+    - I cut API latency by ~35–45% through optimized networking and Swift Structured Concurrency.
+    - I improved app launch and screen load time by roughly 4×, making the app feel noticeably more responsive.
+    - I helped raise payment success rates by ~15–20% by optimizing the bKash, Nagad, and card flows.
+    - I improved stability, taking crash-free sessions from ~96% to 99%+.
+    - I reduced redundant API calls by ~30% through smarter caching and data-fetch strategies.
+    - I contributed to features aimed at improving engagement and retention at scale.
 
 - name: Museum of the Future (MOTF)
   bullets:
-    - Interactive app with real-time indoor positioning (BlueGPS).
-    - Built with TCA and Clean Architecture.
-    - ~30–40% faster development velocity via SPM modularization.
-    - ~25% lower location-update latency.
-    - Crash-free sessions above 99%.
+    - I built an interactive iOS app with real-time indoor positioning using BlueGPS.
+    - I architected it with TCA and Clean Architecture, which paid off in modularity and scalability.
+    - I increased development velocity by ~30–40% by modularizing the codebase with Swift Package Manager.
+    - I reduced location-update latency by ~25%, making the positioning feel more responsive.
+    - I got the app to >99% crash-free sessions in production.

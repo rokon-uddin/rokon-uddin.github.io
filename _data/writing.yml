@@ -1,0 +1,47 @@
+- title: "Fintech iOS App Security: A Complete Engineering Guide from TLS to the Secure Enclave"
+  blurb: >-
+    Everything I've learned shipping payment flows in production — transport security, certificate
+    pinning, and using the Secure Enclave to keep sensitive data off the wire and out of memory.
+  url: https://medium.com/system-weakness/fintech-ios-app-security-a-complete-engineering-guide-from-tls-to-the-secure-enclave-30fa89d55a85
+
+- title: "Swift Optional Custom Operators for Safe Unwrapping"
+  blurb: >-
+    A look at building custom operators for optional unwrapping in Swift — safer and more expressive
+    than reaching for force-unwraps or verbose if-let chains.
+  url: https://medium.com/@shoaib-rokon/swift-optional-custom-operators-for-safe-unwrapping-c33cbeccfde5
+
+- title: "Debouncing and Throttling in Swift: A Journey of Refinement"
+  blurb: >-
+    How I refined a debouncing and throttling implementation in Swift over several iterations,
+    and the tradeoffs that shaped each version.
+  url: https://medium.com/@shoaib-rokon/debouncing-and-throttling-in-swift-a-journey-of-refinement-c5d8ef3613d6
+
+- title: "OperationQueue: Asynchronous Data Provider for List View"
+  blurb: >-
+    Using OperationQueue as an asynchronous data provider to keep list views smooth and responsive
+    under real-world data loads.
+  url: https://medium.com/monstar-lab-bangladesh-engineering/operationqueue-asynchronous-data-provider-for-list-view-ee5327ff2647
+
+- title: "Step into Swift Combine"
+  blurb: >-
+    An introduction to Swift's Combine framework for developers making the jump from
+    callback-based and delegate-based patterns to reactive streams.
+  url: https://medium.com/monstar-lab-bangladesh-engineering/step-into-swift-combine-c0c6daaa3f6e
+
+- title: "Swift: From Protocol to AssociatedType, then Type Erasure"
+  blurb: >-
+    Working through Swift protocols with associated types, why they get restrictive fast, and how
+    type erasure solves it.
+  url: https://medium.com/monstar-lab-bangladesh-engineering/swift-from-protocol-to-associatedtype-then-type-erasure-a4093f6a2d08
+
+- title: "iOS Custom UIView from XIB"
+  blurb: >-
+    A practical walkthrough of building reusable custom UIViews backed by XIB files, the pattern I
+    reach for on UIKit codebases.
+  url: https://medium.com/monstar-lab-bangladesh-engineering/ios-custom-uiview-from-xib-7b02cc05f75c
+
+- title: "TableView Prefetching DataSource"
+  blurb: >-
+    Implementing UITableView's prefetching data source to keep scrolling smooth when list cells
+    depend on expensive or async work.
+  url: https://medium.com/monstar-lab-bangladesh-engineering/tableview-prefetching-datasource-3de593530c4a

@@ -3,20 +3,39 @@ layout: default
 title: Mohammed Rokon Uddin – Senior iOS Engineer
 ---
 
-<section id="about" class="section">
+<section id="about" class="section card">
   <h2>About</h2>
-  <!-- TODO: replace with the verbatim profile paragraph from the resume PDF. -->
   <p>
-    Senior iOS Engineer with 10+ years of experience building and scaling
-    native iOS applications, specializing in SwiftUI, The Composable
-    Architecture (TCA), Clean Architecture, and Swift Concurrency. Proven
-    track record of driving performance improvements and leading
-    engineering teams, complemented by independent, AI-powered iOS apps
-    built and shipped end-to-end.
+    I've spent the last decade-plus building for Apple platforms, and I still get a
+    small thrill every time a build compiles clean in Xcode. What started as curiosity
+    about how iPhone apps actually worked turned into a career leading mobile
+    engineering teams — right now a team of 34 at Brain Station 23, after years scaling
+    a team of 16 at Monstarlab — and shipping software used by tens of millions of
+    people, including an app serving over 20 million monthly active users.
+  </p>
+  <p>
+    My day-to-day lives in SwiftUI, The Composable Architecture, Clean Architecture,
+    and Swift's structured concurrency model — not because they're trendy, but because
+    they make large codebases survivable and fast ones faster. I like the unglamorous
+    work: re-architecting a legacy codebase, shaving milliseconds off a cold launch,
+    getting crash-free sessions from 96% to 99%+. That's where most of the real
+    engineering happens.
+  </p>
+  <p>
+    Outside of client work, I build and ship my own AI-powered iOS apps end-to-end —
+    idea, on-device machine learning, App Store listing, all of it. It's the fastest
+    way I know to stay honest about what "good" actually feels like from a user's
+    side, not just an engineer's.
+  </p>
+  <p>
+    When I'm not writing Swift, I'm usually writing about Swift — I keep a running
+    habit of technical posts on things I had to dig for answers on myself. And when
+    I'm away from a keyboard entirely, you'll probably find me on a soccer pitch —
+    it's the other place I've learned the most about being part of a team.
   </p>
 </section>
 
-<section id="experience" class="section">
+<section id="experience" class="section card">
   <h2>Experience</h2>
   {% for job in site.data.experience %}
   <div class="experience-item">
@@ -31,7 +50,7 @@ title: Mohammed Rokon Uddin – Senior iOS Engineer
   {% endfor %}
 </section>
 
-<section id="projects" class="section">
+<section id="projects" class="section card">
   <h2>Featured Projects</h2>
   {% for project in site.data.projects %}
   <div class="project-item">
@@ -46,7 +65,7 @@ title: Mohammed Rokon Uddin – Senior iOS Engineer
   {% endfor %}
 </section>
 
-<section id="apps" class="section">
+<section id="apps" class="section card">
   <h2>Independent iOS Apps</h2>
   {% for app in site.data.apps %}
   <div class="app-item">
@@ -56,23 +75,58 @@ title: Mohammed Rokon Uddin – Senior iOS Engineer
   {% endfor %}
 </section>
 
-<section id="skills" class="section">
+<section id="writing" class="section card">
+  <h2>Writing</h2>
+  <p class="section-intro">
+    I write about the Swift and iOS problems I actually run into — mostly so
+    future-me, and hopefully you, doesn't have to solve them twice.
+  </p>
+  <div class="writing-grid">
+    {% for post in site.data.writing %}
+    <a class="writing-card" href="{{ post.url }}">
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.blurb }}</p>
+      <span class="writing-link">Read on Medium →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="beyond-the-code" class="section card">
+  <h2>Beyond the Code</h2>
+  <p>
+    Most weeks, I split my time between two very different kinds of teamwork. On one
+    side, mobile engineering — architecture reviews, code reviews, the slow craft of
+    building something that scales past the first hundred users. On the other,
+    soccer, which I've played for as long as I can remember and still play
+    regularly. It's a good reset: no pull requests, no Slack, just a ball and eleven
+    other people trying to read the same play a half-second faster than the other
+    side.
+  </p>
+  <p>
+    I also write. Technical writing forces a kind of clarity that just knowing
+    something doesn't — if I can't explain how Combine's backpressure actually
+    works, I probably don't understand it as well as I think I do. It's become as
+    much a part of how I learn as any code I ship.
+  </p>
+</section>
+
+<section id="skills" class="section card">
   <h2>Skills</h2>
   {% for group in site.data.skills %}
   <div class="skills-group">
     <h3>{{ group.category }}</h3>
-    {% if group.items and group.items.size > 0 %}
+    <p class="skills-blurb">{{ group.blurb }}</p>
     <ul class="skills-list">
       {% for item in group.items %}
       <li>{{ item }}</li>
       {% endfor %}
     </ul>
-    {% endif %}
   </div>
   {% endfor %}
 </section>
 
-<section id="education" class="section">
+<section id="education" class="section card">
   <h2>Education</h2>
   {% for edu in site.data.education %}
   <div class="education-item">
@@ -82,7 +136,7 @@ title: Mohammed Rokon Uddin – Senior iOS Engineer
   {% endfor %}
 </section>
 
-<section id="awards" class="section">
+<section id="awards" class="section card">
   <h2>Awards</h2>
   <ul class="awards-list">
     {% for award in site.data.awards %}

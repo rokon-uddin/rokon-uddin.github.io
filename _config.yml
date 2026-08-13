@@ -4,6 +4,8 @@ description: >-
   track record of leading mobile teams and shipping independent AI-powered
   iOS apps.
 author: Mohammed Rokon Uddin
+tagline: >-
+  I build fast, thoughtful software for Apple platforms — and write about how it's done.
 lang: en
 
 url: "https://rokon-uddin.github.io"
@@ -28,6 +30,10 @@ nav_items:
     anchor: projects
   - name: Apps
     anchor: apps
+  - name: Writing
+    anchor: writing
+  - name: Beyond the Code
+    anchor: beyond-the-code
   - name: Skills
     anchor: skills
   - name: Education

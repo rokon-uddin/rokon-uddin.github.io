@@ -3,20 +3,20 @@
   dates: October 2024 – Present
   location: Dhaka, Bangladesh
   bullets:
-    - Lead a 34-engineer mobile team, setting technical direction and delivery standards.
-    - Re-architected a legacy iOS codebase around Clean Architecture, improving maintainability and testability.
-    - Delivered ~4× faster app load time using Swift Structured Concurrency.
-    - Improved runtime efficiency through structured thread and background task management.
-    - Standardized code quality across the team with SwiftLint and SwiftFormat.
-    - Defined scalable system architecture and mentored engineers on modern iOS practices.
+    - I lead a mobile engineering team of 34 engineers, setting the architecture, delivery standards, and engineering culture across projects.
+    - I re-architected a legacy iOS codebase around Clean Architecture, making it far more modular, maintainable, and testable.
+    - I adopted Swift Structured Concurrency and reworked async workflows, cutting app load time by roughly 4×.
+    - I restructured thread and background-task management, improving runtime efficiency while reducing memory and power usage.
+    - I standardized code quality with SwiftLint and SwiftFormat, shortening review cycles and keeping the codebase consistent across a large team.
+    - I define scalable system architecture and mentor engineers, investing in the team's long-term growth as much as the product's.
 
 - title: Senior Software Engineer II
   company: Monstarlab Bangladesh Ltd.
   dates: June 2017 – June 2024
   location: Dhaka, Bangladesh
   bullets:
-    - Scaled a 16-engineer mobile team delivering multiple high-impact iOS apps.
-    - Introduced The Composable Architecture (TCA), Clean Architecture, and MVVM-C across projects.
-    - Drove modern iOS adoption, reducing technical debt across the codebase.
-    - Improved app stability and performance through systematic engineering practices.
-    - Mentored developers and enforced engineering best practices across the team.
+    - I helped scale a mobile engineering team from a handful of engineers to 16, delivering multiple high-impact iOS applications along the way.
+    - I introduced The Composable Architecture (TCA), Clean Architecture, and MVVM-C, which meaningfully improved code maintainability and development velocity.
+    - I drove adoption of modern iOS technologies across teams, reducing technical debt and improving scalability.
+    - I improved app stability and performance by tracking down bottlenecks and optimizing the flows that mattered most to users.
+    - I mentored developers and helped establish engineering best practices that outlasted any single project.

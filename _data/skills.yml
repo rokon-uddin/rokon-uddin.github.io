@@ -1,17 +1,85 @@
-# TODO: fill in the actual skill items under each category from the resume.
 - category: Languages & Frameworks
-  items: []
+  blurb: >-
+    Swift is home base — I've used it since it was young enough to still be changing fast.
+  items:
+    - Swift
+    - Objective-C
+    - Combine
+    - RxSwift
+    - SwiftUI
+    - UIKit
+    - iOS
+    - watchOS
+    - macOS
+
 - category: Backend & Integration
-  items: []
+  blurb: >-
+    I'd rather design a good API contract with the backend team than work around a bad one.
+  items:
+    - REST APIs
+    - API Design Collaboration
+    - Microservices Integration
+
 - category: Data & Performance
-  items: []
+  blurb: >-
+    Performance work is where I get genuinely nerdy — profiling a slow screen back to a clean 60fps is deeply satisfying.
+  items:
+    - CoreData
+    - SwiftData
+    - Realm
+    - Performance Optimization
+    - GCD
+    - Operation
+    - Swift Structured Concurrency
+
 - category: AI & Developer Productivity
-  items: []
+  blurb: >-
+    I use AI tools daily as a real part of my workflow, not a novelty — for scaffolding, refactoring, and catching things I'd otherwise miss.
+  items:
+    - AI-assisted development (ChatGPT, Claude)
+    - Agentic coding workflows
+    - Automated code generation, refactoring, and debugging
+
 - category: Architecture & Engineering
-  items: []
+  blurb: >-
+    Good architecture is the thing that lets a team move fast a year from now, not just this sprint.
+  items:
+    - The Composable Architecture (TCA)
+    - Clean Architecture
+    - MVVM-C
+    - Backend-Driven UI
+    - Modular Architecture
+    - Scalable System Design
+
 - category: Testing & Quality
-  items: []
+  blurb: >-
+    I write tests so I can refactor fearlessly, not just to satisfy a coverage number.
+  items:
+    - XCTest
+    - UI Testing
+    - Snapshot Testing
+    - Test-Driven Development (TDD)
+    - Automation Testing
+
 - category: Product & Delivery
-  items: []
+  blurb: >-
+    I care about why a feature exists, not just how it's built — the best engineering decisions come from understanding the product.
+  items:
+    - A/B Testing
+    - Experimentation
+    - Product Thinking
+    - Agile
+    - Scrum
+    - Cross-functional Collaboration
+
 - category: Tools
-  items: []
+  blurb: >-
+    A well-tuned toolchain is invisible when it's right and painful when it's not — I spend real time getting it right.
+  items:
+    - Instruments
+    - Swift Package Manager (SPM)
+    - CocoaPods
+    - SwiftLint
+    - SwiftFormat
+    - Git
+    - CI/CD (Bitbucket, GitHub Actions, Xcode Cloud)
