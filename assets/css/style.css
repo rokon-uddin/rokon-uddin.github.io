@@ -272,8 +272,13 @@ main {
   gap: 1rem;
 }
 
+.writing-grid a.writing-card:first-child {
+  grid-column: 1 / -1;
+}
+
 .writing-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 1.25rem;
   border-radius: calc(var(--radius) - 6px);
   border: 1px solid var(--color-border);
@@ -291,6 +296,23 @@ main {
   text-decoration: none;
 }
 
+.writing-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.6rem;
+}
+
+.writing-tag {
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
 .writing-card h3 {
   margin: 0 0 0.4rem;
   font-size: 1rem;
@@ -301,12 +323,27 @@ main {
   margin: 0 0 0.75rem;
   font-size: 0.9rem;
   color: var(--color-muted);
+  flex-grow: 1;
+}
+
+.writing-footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
 }
 
 .writing-link {
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--color-accent);
+}
+
+.writing-meta {
+  font-size: 0.78rem;
+  color: var(--color-muted);
+  white-space: nowrap;
 }
 
 /* Skills */

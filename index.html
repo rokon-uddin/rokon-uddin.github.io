@@ -84,9 +84,23 @@ title: Mohammed Rokon Uddin – Senior iOS Engineer
   <div class="writing-grid">
     {% for post in site.data.writing %}
     <a class="writing-card" href="{{ post.url }}">
+      {% if post.tags %}
+      <div class="writing-tags">
+        {% for tag in post.tags %}
+        <span class="writing-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
       <h3>{{ post.title }}</h3>
       <p>{{ post.blurb }}</p>
-      <span class="writing-link">Read on Medium →</span>
+      <div class="writing-footer">
+        <span class="writing-link">Read on Medium →</span>
+        {% if post.date or post.read_time %}
+        <span class="writing-meta">
+          {{ post.date }}{% if post.date and post.read_time %} · {% endif %}{{ post.read_time }}
+        </span>
+        {% endif %}
+      </div>
     </a>
     {% endfor %}
   </div>

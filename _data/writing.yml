@@ -1,26 +1,33 @@
 - title: "Fintech iOS App Security: A Complete Engineering Guide from TLS to the Secure Enclave"
   blurb: >-
-    Everything I've learned shipping payment flows in production — transport security, certificate
-    pinning, and using the Secure Enclave to keep sensitive data off the wire and out of memory.
+    A layer-by-layer guide to securing a production payment app on iOS: TLS 1.3 and certificate
+    pinning, Keychain and Secure Enclave-backed transaction signing, PCI-DSS-aware tokenization,
+    JWT session architecture, and jailbreak defense — mapped against the OWASP Mobile Top 10, with
+    a working SwiftUI demo project.
+  date: August 2026
+  read_time: 28 min read
+  tags: [Mobile Security, Cryptography, PCI-DSS]
   url: https://medium.com/system-weakness/fintech-ios-app-security-a-complete-engineering-guide-from-tls-to-the-secure-enclave-30fa89d55a85
-
-- title: "Swift Optional Custom Operators for Safe Unwrapping"
-  blurb: >-
-    A look at building custom operators for optional unwrapping in Swift — safer and more expressive
-    than reaching for force-unwraps or verbose if-let chains.
-  url: https://medium.com/@shoaib-rokon/swift-optional-custom-operators-for-safe-unwrapping-c33cbeccfde5
 
 - title: "Debouncing and Throttling in Swift: A Journey of Refinement"
   blurb: >-
-    How I refined a debouncing and throttling implementation in Swift over several iterations,
-    and the tradeoffs that shaped each version.
+    How I evolved a debouncing implementation in SwiftUI — from a simple Combine-based
+    ObservableObject, through generics, into a reusable @DebouncedState property wrapper with
+    pluggable debounce and throttle strategies.
+  date: August 2024
+  read_time: 3 min read
+  tags: [Debounce, Throttle, Property Wrapper]
   url: https://medium.com/@shoaib-rokon/debouncing-and-throttling-in-swift-a-journey-of-refinement-c5d8ef3613d6
 
-- title: "OperationQueue: Asynchronous Data Provider for List View"
+- title: "Swift Optional: Custom Operators for Safe Unwrapping"
   blurb: >-
-    Using OperationQueue as an asynchronous data provider to keep list views smooth and responsive
-    under real-world data loads.
-  url: https://medium.com/monstar-lab-bangladesh-engineering/operationqueue-asynchronous-data-provider-for-list-view-ee5327ff2647
+    Two custom operators, !! and !?, for unwrapping optionals with a descriptive crash message in
+    debug and a safe fallback value in release — a more informative alternative to a bare
+    force-unwrap.
+  date: August 2024
+  read_time: 4 min read
+  tags: [Swift Optionals, SwiftUI]
+  url: https://medium.com/@shoaib-rokon/swift-optional-custom-operators-for-safe-unwrapping-c33cbeccfde5
 
 - title: "Step into Swift Combine"
   blurb: >-
@@ -45,3 +52,13 @@
     Implementing UITableView's prefetching data source to keep scrolling smooth when list cells
     depend on expensive or async work.
   url: https://medium.com/monstar-lab-bangladesh-engineering/tableview-prefetching-datasource-3de593530c4a
+
+- title: "OperationQueue: Asynchronous Data Provider for List View"
+  blurb: >-
+    Using Operation and OperationQueue to build an asynchronous data provider for a table view —
+    chaining dependent sync and async tasks like network fetch, decompression, and filtering
+    without blocking prefetching.
+  date: January 2020
+  read_time: 3 min read
+  tags: [Concurrency, UITableView]
+  url: https://medium.com/monstar-lab-bangladesh-engineering/operationqueue-asynchronous-data-provider-for-list-view-ee5327ff2647
