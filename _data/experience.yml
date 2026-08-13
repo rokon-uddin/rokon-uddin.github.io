@@ -1,0 +1,22 @@
+- title: Specialized Engineer I
+  company: Brain Station 23
+  dates: October 2024 – Present
+  location: Dhaka, Bangladesh
+  bullets:
+    - Lead a 34-engineer mobile team, setting technical direction and delivery standards.
+    - Re-architected a legacy iOS codebase around Clean Architecture, improving maintainability and testability.
+    - Delivered ~4× faster app load time using Swift Structured Concurrency.
+    - Improved runtime efficiency through structured thread and background task management.
+    - Standardized code quality across the team with SwiftLint and SwiftFormat.
+    - Defined scalable system architecture and mentored engineers on modern iOS practices.
+
+- title: Senior Software Engineer II
+  company: Monstarlab Bangladesh Ltd.
+  dates: June 2017 – June 2024
+  location: Dhaka, Bangladesh
+  bullets:
+    - Scaled a 16-engineer mobile team delivering multiple high-impact iOS apps.
+    - Introduced The Composable Architecture (TCA), Clean Architecture, and MVVM-C across projects.
+    - Drove modern iOS adoption, reducing technical debt across the codebase.
+    - Improved app stability and performance through systematic engineering practices.
+    - Mentored developers and enforced engineering best practices across the team.

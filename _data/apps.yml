@@ -1,0 +1,24 @@
+- name: PixPerfect – Inpaint with AI
+  description: >-
+    On-device AI object-removal photo editor built with Core ML and Vision:
+    freehand brush, precision loupe, lasso, AI object detection and
+    segmentation, background reconstruction, privacy-first (no uploads or
+    account), undo/redo, mosaic, full-resolution export, and
+    subscription/lifetime Pro.
+  url: https://apps.apple.com/us/app/pixperfect-inpaint-with-ai/id6775405253
+
+- name: CleanShot – AI Photo Cleaner
+  description: >-
+    On-device photo cleanup that detects duplicates, similar images,
+    screenshots, notes, and blurry/low-quality photos: bulk cleanup,
+    full-screen review, quality scoring, scan progress and cancellation,
+    haptics, localization, and App Store monetization.
+  url: https://apps.apple.com/us/app/cleanshot-ai-photo-cleaner/id6775141807
+
+- name: "QuranWords: Flashcard"
+  description: >-
+    Multilingual vocabulary app with frequency-ranked Quranic vocabulary,
+    spaced repetition, word-level audio, verse context, root-word study,
+    six quiz modes, daily goals, streaks, XP, achievements, reminders,
+    8 app languages, and multiple Arabic script styles.
+  url: https://apps.apple.com/us/app/quranwords-flashcard/id6794572370

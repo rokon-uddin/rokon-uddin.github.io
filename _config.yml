@@ -1,0 +1,41 @@
+title: Mohammed Rokon Uddin
+description: >-
+  Senior iOS Engineer — Swift, SwiftUI, TCA and Clean Architecture, with a
+  track record of leading mobile teams and shipping independent AI-powered
+  iOS apps.
+author: Mohammed Rokon Uddin
+lang: en
+
+url: "https://rokon-uddin.github.io"
+
+contact:
+  email: shoaib.rokon@gmail.com
+  location: Dhaka, Bangladesh (GMT+6)
+  linkedin_handle: rokonuddin
+  linkedin_url: https://www.linkedin.com/in/rokonuddin
+  github_handle: rokon-uddin
+  github_url: https://github.com/rokon-uddin
+  # Platform unlabeled on the source resume — shown as plain text, not linked,
+  # to avoid guessing the wrong destination.
+  other_handle: shoaib-rokon
+
+nav_items:
+  - name: About
+    anchor: about
+  - name: Experience
+    anchor: experience
+  - name: Projects
+    anchor: projects
+  - name: Apps
+    anchor: apps
+  - name: Skills
+    anchor: skills
+  - name: Education
+    anchor: education
+
+exclude:
+  - docs
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock

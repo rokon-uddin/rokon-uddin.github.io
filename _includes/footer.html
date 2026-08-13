@@ -1,0 +1,9 @@
+<footer class="site-footer">
+  <ul class="contact-links">
+    <li><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>
+    <li><a href="{{ site.contact.linkedin_url }}">LinkedIn: {{ site.contact.linkedin_handle }}</a></li>
+    <li><a href="{{ site.contact.github_url }}">GitHub: {{ site.contact.github_handle }}</a></li>
+    <li class="contact-handle">{{ site.contact.other_handle }}</li>
+  </ul>
+  <p class="copyright">&copy; {{ 'now' | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
+</footer>

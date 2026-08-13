@@ -1,0 +1,24 @@
+<header class="site-header" id="top">
+  <div class="header-content">
+    <h1>{{ site.author }}</h1>
+    <p class="header-title">Senior iOS Engineer</p>
+    <p class="header-location">{{ site.contact.location }}</p>
+    <ul class="contact-links">
+      <li><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>
+      <li><a href="{{ site.contact.linkedin_url }}">LinkedIn: {{ site.contact.linkedin_handle }}</a></li>
+      <li><a href="{{ site.contact.github_url }}">GitHub: {{ site.contact.github_handle }}</a></li>
+      <li class="contact-handle">{{ site.contact.other_handle }}</li>
+    </ul>
+  </div>
+</header>
+
+<nav class="site-nav">
+  <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+    Menu
+  </button>
+  <ul class="nav-menu" id="nav-menu">
+    {% for item in site.nav_items %}
+    <li><a href="#{{ item.anchor }}">{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

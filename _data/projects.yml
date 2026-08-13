@@ -1,0 +1,17 @@
+- name: MyGP (Grameenphone) iOS App
+  dates: October 2024 – Present
+  bullets:
+    - 20M+ monthly active users.
+    - ~35–45% reduction in API latency.
+    - ~4× faster app launch and screen load times.
+    - ~15–20% higher payment success rate across bKash, Nagad, and card.
+    - Crash-free sessions improved from ~96% to 99%+.
+    - ~30% fewer redundant API calls.
+
+- name: Museum of the Future (MOTF)
+  bullets:
+    - Interactive app with real-time indoor positioning (BlueGPS).
+    - Built with TCA and Clean Architecture.
+    - ~30–40% faster development velocity via SPM modularization.
+    - ~25% lower location-update latency.
+    - Crash-free sessions above 99%.

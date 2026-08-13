@@ -1,0 +1,92 @@
+---
+layout: default
+title: Mohammed Rokon Uddin – Senior iOS Engineer
+---
+
+<section id="about" class="section">
+  <h2>About</h2>
+  <!-- TODO: replace with the verbatim profile paragraph from the resume PDF. -->
+  <p>
+    Senior iOS Engineer with 10+ years of experience building and scaling
+    native iOS applications, specializing in SwiftUI, The Composable
+    Architecture (TCA), Clean Architecture, and Swift Concurrency. Proven
+    track record of driving performance improvements and leading
+    engineering teams, complemented by independent, AI-powered iOS apps
+    built and shipped end-to-end.
+  </p>
+</section>
+
+<section id="experience" class="section">
+  <h2>Experience</h2>
+  {% for job in site.data.experience %}
+  <div class="experience-item">
+    <h3>{{ job.title }} · {{ job.company }}</h3>
+    <p class="meta">{{ job.dates }} — {{ job.location }}</p>
+    <ul>
+      {% for bullet in job.bullets %}
+      <li>{{ bullet }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="projects" class="section">
+  <h2>Featured Projects</h2>
+  {% for project in site.data.projects %}
+  <div class="project-item">
+    <h3>{{ project.name }}</h3>
+    {% if project.dates %}<p class="meta">{{ project.dates }}</p>{% endif %}
+    <ul>
+      {% for bullet in project.bullets %}
+      <li>{{ bullet }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="apps" class="section">
+  <h2>Independent iOS Apps</h2>
+  {% for app in site.data.apps %}
+  <div class="app-item">
+    <h3><a href="{{ app.url }}">{{ app.name }}</a></h3>
+    <p>{{ app.description }}</p>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  {% for group in site.data.skills %}
+  <div class="skills-group">
+    <h3>{{ group.category }}</h3>
+    {% if group.items and group.items.size > 0 %}
+    <ul class="skills-list">
+      {% for item in group.items %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+</section>
+
+<section id="education" class="section">
+  <h2>Education</h2>
+  {% for edu in site.data.education %}
+  <div class="education-item">
+    <h3>{{ edu.degree }}</h3>
+    <p class="meta">{{ edu.school }}, {{ edu.year }}</p>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="awards" class="section">
+  <h2>Awards</h2>
+  <ul class="awards-list">
+    {% for award in site.data.awards %}
+    <li><strong>{{ award.name }}</strong> — {{ award.org }}, {{ award.year }}</li>
+    {% endfor %}
+  </ul>
+</section>
